@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main -Lower case alphabets in reverse
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     int i;
