@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - do what you do better and do more of what you dont do better
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     int i, j, k;
