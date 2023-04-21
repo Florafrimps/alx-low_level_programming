@@ -11,8 +11,8 @@ int main(void)
     char c;
 
     for (c = 'a'; c <= 'z'; c++)
-    {
-        continue;
+   {
+ continue;
     }
 
     for (c = 'z'; c >= 'a'; c--)
