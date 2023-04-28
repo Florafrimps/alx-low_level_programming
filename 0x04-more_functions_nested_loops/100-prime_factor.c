@@ -1,31 +1,35 @@
-#include "main.h"
+#include <stdio.h>
+#include <math.h>
 
 /**
- * print_triangle - prints a triangle of size "size"
- * @size: size of the triangle to be printed
+ * main - finds the largest prime factor of 612852475143
+ * followed by a new line
+ * Return: Always 0
  */
 
-void print_triangle(int size)
+int main(void)
+
+long int n;
+long int i;
+
+long int n = 612852475143;
+n = 0;
+while (n % 2 == 0)
 {
-   
-if (size <= 0)
-{
-_putchar('\n');
+long int n = 2;
+n /= 2;
 }
+for (i = 3; i <= sqrt(n); i = i + 2)
+{
+while (n % i == 0)
+{
+long int = i;
+n =n / i; 
+}
+}
+if (n > 2)
+long int = n
 else
-{
-int i, j;
-for (i = 1; i <= size; i++)
-{
-for (j = i; j <= size; j++)
-{
-_putchar(' ');
-}
-for (j = 1; j <= i; j++)
-{
-_putchar('#');
-}
-_putchar('\n');
-}
-}
-}
+printf("%ld\n",i - 1);
+return (0);
+
